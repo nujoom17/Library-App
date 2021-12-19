@@ -42,8 +42,8 @@ app.get("/",(req,res)=>{
     })
 })
 
-
-app.listen(5300)
+let port=8080
+app.listen(port)
 
 // const http=require("http")
 // const fs=require("fs")
