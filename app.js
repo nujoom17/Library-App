@@ -1,4 +1,8 @@
+
 const express=require("express")
+
+require("dotenv").config()
+
 
 const app=express()
 
@@ -42,7 +46,7 @@ app.get("/",(req,res)=>{
     })
 })
 
-let port=8080
+let port=process.env.port||8080
 app.listen(port)
 
 
