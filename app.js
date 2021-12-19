@@ -45,21 +45,4 @@ app.get("/",(req,res)=>{
 let port=8080
 app.listen(port)
 
-// const http=require("http")
-// const fs=require("fs")
-// const server=http.createServer((req,res)=>{
-//     res.writeHead(200,{"content-type": "text/html"})
-//     fs.readFile("index.html",(error,data)=>{
-//         if (error){
-//          res.writeHead(404)
-//          res.write("File Error")
-//         }
-//         else{
-//             res.write(data)
-//         }
-//          res.end()
-//     })
-   
-// })
 
-// server.listen(5300)
