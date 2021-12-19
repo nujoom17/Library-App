@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines":"14.16.0",
   "author": "Nujoom A Kadar",
   "license": "ISC",
   "dependencies": {
